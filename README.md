@@ -25,3 +25,21 @@ source .venv/bin/activate
 ```
 deactivate
 ```
+
+## 対話型シェルを利用したPythonの実行
+```
+uv run python
+```
+または
+```
+python
+```
+
+## Pythonのファイルの実行
+```
+uv run [FILE_NAME]
+```
+または
+```
+python [FILE_NAME]
+```
